@@ -1,0 +1,14 @@
+INT a
+INT b
+INT c
+INT i
+a = 0
+b = 1
+i = 1
+IF (i==2*9) THEN JUMP 14
+c = a
+a = a+b
+b = c
+i = i+1
+JUMP 8
+SHOW a
